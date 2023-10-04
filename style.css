@@ -1,1 +1,155 @@
 /* Type your code here */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Open+Sans:ital,wght@0,400;1,300&family=Playfair+Display:wght@500&family=Poppins&family=Roboto&display=swap');
+body{
+    background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png");
+    background-repeat: no-repeat;
+    background-size: 1180px 670px;
+    background-position: 350px 120px;
+    margin-left: 135px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Styling Header */
+
+#logo{
+    margin-left: 1200px;
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 45px;
+    text-shadow: 2px 2px rgb(184, 168, 168);
+}
+
+h3{
+    margin-top: -25px;
+    color: gray;
+}
+
+/* Styling Table */
+
+table{
+    margin-top: 40px;
+    height: 450px;
+    width: 900px;
+    border-collapse: collapse;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 4px rgba(0,0,0,0.07), 
+    0 4px 8px rgba(0,0,0,0.07), 
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07), 
+    0 32px 64px rgba(0,0,0,0.07);
+}
+
+
+tr{
+    border-bottom: 2px solid lightgray;
+    background-color: white;
+}
+
+td{
+    padding-left: 15px;
+
+}
+
+th{
+    background-color: #F05033;
+    height: 35px;
+    color: white;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.last{
+    width: 60px;
+}
+
+#gray{
+    color: gray;
+}
+
+.blue{
+    color: rgb(52, 123, 215);
+    cursor: pointer;
+}
+
+/* Styling Footer */
+
+.footer{
+    margin-top: 40px;
+}
+
+/* javascript */
+.img {
+    display: none;
+}
+
+#seh {
+    position: absolute;
+    top: 315px;
+    left: 230px;
+}
+
+#sac {
+    position: absolute;
+    top: 355px;
+    left: 230px;
+}
+
+#gam {
+    position: absolute;
+    top: 395px;
+    left: 233px;
+}
+
+#vir {
+    position: absolute;
+    top: 435px;
+    left: 185px;
+}
+
+#dho {
+    position: absolute;
+    top: 478px;
+    left: 240px;
+}
+
+#yuv {
+    position: absolute;
+    top: 520px;
+    left: 200px;
+}
+
+#sur {
+    position: absolute;
+    top: 670px;
+    left: 360px;
+}
+
+#har {
+    position: absolute;
+    top: 670px;
+    left: 480px;
+}
+
+#zah {
+    position: absolute;
+    top: 670px;
+    left: 580px;
+}
+
+#mun {
+    position: absolute;
+    top: 670px;
+    left: 680px;
+}
+
+#sre {
+    position: absolute;
+    top: 670px;
+    left: 770px;
+}
